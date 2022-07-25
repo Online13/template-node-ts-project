@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": [
+    "index.ts",
+    "src/**/*",
+    "middlewares/**/*",
+    "lib/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "dist/**/*",
+  ]
+}
